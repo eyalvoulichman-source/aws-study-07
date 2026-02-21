@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: kafka
-        image: docker.io/bitnami/kafka:3.7.0-debian-11-r0
+        image: public.ecr.aws/bitnami/kafka:3.7.0
         env:
         - name: KAFKA_CFG_NODE_ID
           value: "0"
